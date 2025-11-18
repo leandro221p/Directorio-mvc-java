@@ -5,6 +5,7 @@ public class Producto {
     private String nombre; // Nombre del producto
     private int cantidad; // Cantidad del producto
     private double precio; // Precio del producto
+    private static int contadorProductos = 0; // Contador estático para productos
 
     // Constructor para crear un producto
     public Producto(String sku, String nombre, int cantidad, double precio) {
