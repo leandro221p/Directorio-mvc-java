@@ -3,6 +3,7 @@ public class ControladorInventario {
     // Atributos
     private BaseDeDatos baseDatos;
     private InventarioVista vista;
+    private Producto contadorProducto;
 
     // Constructor
     public ControladorInventario(BaseDeDatos baseDatos, InventarioVista vista) {
